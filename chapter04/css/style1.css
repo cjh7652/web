@@ -1,0 +1,21 @@
+@import url("style.css");
+h1{color: #fff}
+
+dl{
+    background: #55f555;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px 40px;
+    border: 5px solid #fff;
+}
+
+div{
+    width: 50%;
+    padding: 30px;
+    background: #fff;
+    margin: 0 auto;
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
