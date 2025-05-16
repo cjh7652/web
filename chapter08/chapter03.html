@@ -4,7 +4,36 @@
 		<title>이미지 배치하고 롤오버시 블러 효과 적용하기</title>
 		<meta charset="UTF-8">
 		<style type="text/css">
+			*{margin: 0; padding: 0;}
+			h1{text-align: center;  color: #fff; text-shadow: -5px -5px 10px #000; font-style: italic;}
+			#bookList{
+				background: url(./images/book_bg.png) no-repeat;
+				width: 498px;
+				height: 246px;
+				margin: 50px auto;
+				border: 5px solid #ddd;
+				padding-top: 25px;
+				border-radius: 20px;
+				
+			}
+			#bookList ul{
+				list-style: none;
+				display: flex;
+				margin-left: 20px;
+			}
+			#bookList ul li{position: relative;}
+			#bookList ul li:hover{box-shadow: 0 0 40px green;}
+			#bookList ul li:not(:last-child){margin-right: 64px;}
 
+			#bookList ul li a .hit{
+				width: 50px;
+				height: 50px;
+				background: url(./images/ico_hot.png) no-repeat;
+				display: block;
+				top:-20px;
+				left:-20px;
+				position:absolute
+			}
 		</style>
 	</head>
 
